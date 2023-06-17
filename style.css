@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;800&family=Nunito:wght@800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    
+    
+
+}
+nav{
+    padding: 0 50px;
+    height: 4vh;
+}
+
+.navbar-one{
+
+    display: flex;
+    background-color: #008fd5;
+    color: white;
+    height: 60px;
+    cursor: pointer;
+    font-size: small;
+}
+.navbar-one .left{
+    display: flex;
+    
+    align-items: center;
+}
+.navbar-one .right{
+    display: flex;
+    
+    margin-left: 40px;
+
+    
+    align-items: center;
+}
+.navbar-second{
+    display: flex;
+    
+}
+.left >div +div{
+    margin-left: 40px;
+}
+.right >div{
+    margin-left: 40px;
+
+}
+.left >div:hover,
+.right >div:hover{
+
+    color: #292929;
+    transition: all 0.5s;
+}
+span{
+    margin-left: 5px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-second{
+    /*background-color: white;*/
+    background: transparent;
+    
+    height: 110px;
+    color: #292929;
+    position: sticky;
+    top: 0;
+}
+.navbar-second .logo h1 span{
+    color: #995fe3;
+}
+.logo{
+    font-size: 24px;
+    cursor: pointer;
+
+
+}
+li{
+    list-style-type: none;
+}
+a{
+
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+    color: #292929;
+    font-weight: 400;
+}
+.navbar-three{
+    background-color: #292929;
+    height: 40px;
+    
+
+   
+}
+.navbar-three a{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+}
+.navbar-three a:hover{
+    transition: all 0.5s;
+    color: #292929;
+    background-color: #ccc;
+    padding: 11px 25px;
+}
+
+
+
+section{
+    min-height: 100vh;
+    background:url(/Web/WebZ/images/Rectangle3.png) no-repeat center ;
+    background-size: cover;
+}
+.home-detail{
+    color: white;
+    width: 100%;
+    padding: 100px 200px;
+    
+    
+    margin: auto;
+    text-align: left;
+    transform: translateY(25vh);
+    cursor: pointer;
+}
+.home-detail h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.home-detail h3{
+    font-weight: 300;
+    position: relative;
+    bottom: 10px;
+}
+.home-detail .btn{
+    color: white;
+    background-color: #008fd5;
+    
+    padding: 18px 28px;
+    text-transform: uppercase;
+    position: relative;
+    right: 32px;
+    
+    
+    
+    
+}
+.home-detail .card_img{
+     position: relative;
+     left: 50%;
+}
